@@ -1,0 +1,130 @@
+.Furniro__Header__container {
+  position: relative;
+  height: 716.83px;
+  margin-top: -100px;
+  z-index: -11;
+  width: 100%;
+  background-image: url(../../../assets/HeroBackground.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.Furniro__Header__container-Content {
+  width: 100%;
+  max-width: 643px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--font-family);
+  padding: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 100px;
+  background: var(--bg-primary);
+}
+.Furniro__Header__container-Content h4 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3px;
+}
+.Furniro__Header__container-Content h1 {
+  font-family: var(--font-family);
+  color: var(--bg-secondary);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+}
+.Furniro__Header__container-Content p {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Furniro__Header__container-Content-Button {
+  margin: 30px 0 10px;
+}
+
+@media (max-width: 480px) {
+  .Furniro__Header__container {
+    height: 350px;
+  }
+  .Furniro__Header__container-Content {
+    width: 200px;
+    padding: 10px;
+    gap: 4px;
+    right: 20px;
+    bottom: 50px;
+  }
+  .Furniro__Header__container-Content-Button {
+    margin: 5px 0;
+  }
+  .Furniro__Header__container-Content p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .Furniro__Header__container-Content h1 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+  }
+  .Furniro__Header__container-Content h4 {
+    line-height: 10px;
+
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .Furniro__Header__container {
+    height: 450.83px;
+  }
+  .Furniro__Header__container-Content {
+    width: 380px;
+    padding: 18px;
+    gap: 4px;
+    line-height: 5px;
+    right: 20px;
+    bottom: 40px;
+  }
+  .Furniro__Header__container-Content h4 {
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+  .Furniro__Header__container-Content h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .Furniro__Header__container-Content p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .Furniro__Header__container-Content-Button {
+    margin: 10px 0 5px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Furniro__Header__container {
+    height: 600.83px;
+  }
+  .Furniro__Header__container-Content {
+    width: 520px;
+    padding: 25px;
+    gap: 8px;
+    line-height: 5px;
+    right: 25px;
+    bottom: 80px;
+  }
+  .Furniro__Header__container-Content h1 {
+    font-size: 45px;
+    line-height: 48px;
+  }
+  .Furniro__Header__container-Content-Button {
+    margin: 20px 0 7px;
+  }
+}

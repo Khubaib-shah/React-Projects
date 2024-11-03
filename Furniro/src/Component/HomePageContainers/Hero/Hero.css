@@ -1,0 +1,110 @@
+.Furniro__Container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.Furniro__Hero__Heading {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  font-family: var(--font-family);
+}
+
+.Furniro__Hero__Heading p {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+.Furniro__Hero__Images__Container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.Furniro__Hero__Images__Container-Image {
+  width: 381px;
+  height: 450px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Furniro__Hero__Images__Container-Image img {
+  width: 100vw;
+  height: 100%;
+  border-radius: inherit;
+}
+.Furniro__Hero__Images__Container-SubHeading {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .Furniro__Container {
+    padding: 0;
+  }
+  .Furniro__Hero__Images__Container {
+    flex-direction: column;
+  }
+  .Furniro__Hero__Heading p {
+    font-size: 10px;
+  }
+
+  .Furniro__Hero__Images__Container-SubHeading {
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .Furniro__Container {
+    max-width: 700px;
+  }
+
+  .Furniro__Hero__Heading {
+    gap: 4;
+  }
+  
+  .Furniro__Hero__Heading p {
+    font-size: 14px;
+  }
+  .Furniro__Hero__Images__Container-Image {
+    width: 201px;
+    height: 280px;
+  }
+
+  .Furniro__Hero__Images__Container-SubHeading {
+    margin: 12px 0;
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Furniro__Container {
+    max-width: 900px;
+  }
+  
+  .Furniro__Hero__Images__Container-Image {
+    width: 301px;
+    height: 380px;
+  }
+
+  .Furniro__Hero__Images__Container-SubHeading {
+    margin: 22px 0;
+    font-size: 22px;
+  }
+}
